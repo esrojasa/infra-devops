@@ -1,5 +1,18 @@
 # infra-devops
 
+## configuracion infra
+
+Para levantar la infraestructura utilizando docker compose debemos:
+
+    docker compose up -d
+
+Si queremos bajar la infraestructura pero conservar los volumenes con las configuraciones de la aplicacion:
+
+    docker compose down
+
+En cambio, si queremos bajar la infraestructura y ademas eliminar los volumenes, lo hacemos con:
+
+    docker compose  down --volumes
 
 ## jenkins
 
