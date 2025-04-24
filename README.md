@@ -32,7 +32,7 @@ Contraseña por defecto tras primera instalacion:
 
 para obtener la contraseña inicial, debes revisar el contenido del fichero _/nexus-data/admin.password del contenedor de nexus. Aca un atajo
 
-    docker exec -it devops-infra-nexus-1 cat /nexus-data/admin.passwo
+    docker exec -it devops-infra-nexus-1 cat /nexus-data/admin.password
 
 # urls de acceso:
 
